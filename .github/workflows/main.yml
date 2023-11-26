@@ -17,5 +17,5 @@ jobs:
    steps:
    - uses: actions/checkout@v3
 
-   - name: Run SAST
-     run: conviso sast run
+   - name: Run AST
+     run: conviso ast run
